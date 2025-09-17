@@ -14,7 +14,9 @@ dist/
 .coverage
 *.py,cover
 .cache/
-
+.venv
+.csv
+.pkl
 # Файлы *.py,cover не несут никакого смысла
 *.py,cover
 
