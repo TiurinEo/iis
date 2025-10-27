@@ -111,60 +111,38 @@ sh start_mlflow.sh
 Модели и подходы:
 
 Baseline RandomForest - базовая модель без настройки параметров
-
 Extended Features (sklearn) - с генерацией признаков (PolynomialFeatures, KBinsDiscretizer)
-
 AutoFeat - автоматическая генерация признаков
-
 Feature Selection - отбор признаков (Forward SFS, Backward SFS, RFE)
-
 Hyperparameter Tuning - настройка гиперпараметров
-
 CatBoost - альтернативный алгоритм
 
 Лучший результат:
-
 Модель: RandomForest с настройкой гиперпараметров и отбором признаков
-
 Метрика: F1-score = 0.8536 (CV)
-
 Параметры модели:
 
 n_estimators: 200
-
 max_features: 0.1
-
 max_depth: 15
-
 random_state: 42
 
 Предобработка данных:
-
 StandardScaler для числовых признаков
-
 OrdinalEncoder для категориальных признаков
-
 PolynomialFeatures (degree=2) для 3 признаков
-
 KBinsDiscretizer (n_bins=5) для 3 признаков
-
 Forward Sequential Feature Selection (40% лучших признаков)
 
 
 Production модель:
 
 Run ID: 128bd4a48b8e4f38a8a1c186094d85bf
-
 Обучена на полной выборке (train + test)
-
 Зарегистрирована в MLflow Model Registry с тегом "Production"
-
 
 Структура эксперимента:
 Все эксперименты логируются в MLflow под именем "Heart Disease Prediction". Каждый прогон включает:
-
 Параметры модели и предобработки
-
 Метрики качества (accuracy, f1_score)
-
 Артефакты (модель, списки признаков, requirements.txt)
