@@ -97,7 +97,7 @@ jupyter notebook
 MLflow сервер запускается из директории `mlflow`:
 
 ```bash
-cd mlflow
+cd eda/mlflow
 sh start_mlflow.sh
 ```
 
