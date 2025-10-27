@@ -110,8 +110,8 @@ sh start_mlflow.sh
 
 Модели и подходы:
 
-Baseline RandomForest - базовая модель без настройки параметров
-Extended Features (sklearn) - с генерацией признаков (PolynomialFeatures, KBinsDiscretizer)
+Baseline RandomForest - базовая модель без настройки параметров\n
+Extended Features (sklearn) - с генерацией признаков (PolynomialFeatures, KBinsDiscretizer)\n
 AutoFeat - автоматическая генерация признаков
 Feature Selection - отбор признаков (Forward SFS, Backward SFS, RFE)
 Hyperparameter Tuning - настройка гиперпараметров
