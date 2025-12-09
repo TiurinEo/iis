@@ -233,4 +233,3 @@ docker run -d -p 8000:8000 -v ${pwd}/../models:/models ml-prediction-service:1
 - `slope` - наклон пикового сегмента ST (0-2)
 - `ca` - количество основных сосудов (0-3)
 - `thal` - дефект таллия (0-3)
-```
