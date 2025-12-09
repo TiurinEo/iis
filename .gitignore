@@ -20,3 +20,6 @@ eda/mlflow/mlartifacts/
 eda/mlflow/mlruns.db
 eda/mlflow/mlruns.db-shm
 eda/mlflow/mlruns.db-wal
+
+eda/research/mlruns
+eda/research/catboost_info
