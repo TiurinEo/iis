@@ -23,3 +23,7 @@ eda/mlflow/mlruns.db-wal
 
 eda/research/mlruns
 eda/research/catboost_info
+
+# Grafana & Prometheus data
+eda/services/grafana/data/
+eda/services/prometheus/data/
